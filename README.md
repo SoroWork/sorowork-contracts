@@ -63,6 +63,8 @@ Community Leader         BountyEscrow                Worker
 
 ## Deploy to Testnet
 
+> **Important:** Contracts must be deployed and initialized in a specific order due to cross-contract dependencies. See [docs/deployment-ordering.md](docs/deployment-ordering.md) for the full guide with dependency diagram.
+
 ### Prerequisites
 
 ```bash
